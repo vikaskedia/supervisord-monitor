@@ -120,7 +120,7 @@
 									$alert = true;
 									echo '<span class="pull-right"><a href="'.site_url('/control/clear/'.$name.'/'.$item_name).'" id="'.$name.'_'.$item_name.
 											'" onclick="return false" data-toggle="popover" data-message="'.htmlspecialchars($check).'" data-original-title="'.
-											$item_name.'@'.$name.'" class="pop btn btn-mini btn-danger"><img src="/img/alert_icon.png" /></a></span>';
+											$item_name.'@'.$name.'" class="pop btn btn-mini btn-danger"><img src="<?php echo site_url('/img/alert_icon.png');?>"/></a></span>';
 								}
 								?>
 							</td>
